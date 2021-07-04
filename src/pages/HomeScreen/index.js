@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
-import Post from "./Post";
-import "./HomeScreen.css";
+import Nav from "../../components/Nav";
+import Post from "../../components/Post";
+import "./style.css";
 
 
 

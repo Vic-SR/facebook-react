@@ -1,7 +1,5 @@
 import React from "react";
-import HomeScreen from './HomeScreen';
-import RegisterScreen from "./RegisterScreen";
-import "./LoginScreen.css";
+import "./style.css";
 
 function LoginScreen(props){
     return (

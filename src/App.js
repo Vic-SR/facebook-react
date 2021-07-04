@@ -1,7 +1,7 @@
 import React from "react";
-import HomeScreen from "./facebook/HomeScreen";
-import LoginScreen from "./facebook/LoginScreen";
-import RegisterScreen from "./facebook/RegisterScreen";
+import HomeScreen from "./pages/HomeScreen";
+import LoginScreen from "./pages/LoginScreen";
+import RegisterScreen from "./pages/RegisterScreen";
 import "./App.css";
 import {
   BrowserRouter as Router,

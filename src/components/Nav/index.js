@@ -1,7 +1,5 @@
 import React from "react";
-import LoginScreen from "./LoginScreen";
-import RegisterScreen from "./RegisterScreen";
-import "./Nav.css";
+import "./style.css";
 
 function nav(){
     return (

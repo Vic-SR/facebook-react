@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Post.css"
+import "./style.css"
 
 function Post({userName, content, imgSrc, profileImgSrc}) {
   //useState 기능을 이용해서 변수를 만듦.

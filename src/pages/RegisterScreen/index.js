@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import showPwdImg from './show-password.svg';
 import hidePwdImg from './hide-password.svg';
-import "./RegisterScreen.css";
+import "./style.css";
 
-import useSelectableList from "@rooks/use-selectable-list"
 
 
 
