@@ -1,12 +1,35 @@
 import React from "react";
 import HomeScreen from "./facebook/HomeScreen";
-import Story from "./facebook/Story";
-import StoryRow from "./facebook/StoryRow";
+import LoginScreen from "./facebook/LoginScreen";
+import RegisterScreen from "./facebook/RegisterScreen";
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App(){
     return (
       <>
-        <HomeScreen/>
+        <Router>
+          <Switch>
+            <Route path="/login">
+              <LoginScreen/>
+            </Route>
+
+            <Route path="/register">
+              <RegisterScreen/>
+            </Route>
+
+            <Route path="/">
+              <HomeScreen/>
+            </Route>
+          </Switch>
+          
+        </Router>
+       
 
       </>
     );
